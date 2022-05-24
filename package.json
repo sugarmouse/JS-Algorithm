@@ -6,6 +6,12 @@
   "author": "sugarmouse <tanghao19950911@gmail.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "test": "sh ./bin/test.sh",
+    "start":"sh ./bin/start.sh",
+    "clean":"sh ./bin/clean.sh"
+
+  },
   "devDependencies": {
     "@types/jest": "^27.5.1",
     "jest": "^28.1.0",

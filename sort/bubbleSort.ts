@@ -29,4 +29,3 @@ export const bubbleSort:BubbleSort = (array, compareFn = defaultCompareFn) => {
   return array;
 };
 
-// module.exports = bubbleSort
