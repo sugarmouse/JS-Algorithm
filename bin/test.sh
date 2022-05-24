@@ -2,4 +2,12 @@
 
 # 执行对应的测试用例
 
-./node_modules/.bin/jest "./test/${1}/${2%.*}.test.ts"
+arg=$1
+
+if [ ${arg:0:1} = '.' ]; then
+  path=${arg#*/}
+else
+  path=$arg
+fi
+
+./node_modules/.bin/jest "./test/${path%.*}.test.ts"
