@@ -1,0 +1,18 @@
+{
+  "name": "JS-Algorithm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:sugarmouse/JS-Algorithm.git",
+  "author": "sugarmouse <tanghao19950911@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/jest": "^27.5.1",
+    "jest": "^28.1.0",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "ts-jest": "^28.0.3"
+  }
+}

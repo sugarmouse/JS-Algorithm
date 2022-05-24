@@ -19,7 +19,7 @@ const switchPlace: SwitchPlace = (arr, i, j) => {
 };
 
 //冒泡排序
-const bubbleSort:BubbleSort = (array, compareFn = defaultCompareFn) => {
+export const bubbleSort:BubbleSort = (array, compareFn = defaultCompareFn) => {
   const { length } = array;
   for (let i = 0; i < length; i++) {
     for (let j = 0; j < length - 1 - i; j++) {
@@ -28,3 +28,5 @@ const bubbleSort:BubbleSort = (array, compareFn = defaultCompareFn) => {
   }
   return array;
 };
+
+// module.exports = bubbleSort
