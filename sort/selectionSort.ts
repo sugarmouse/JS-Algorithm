@@ -1,4 +1,4 @@
-import { isBigger, switchPlace } from './_lib.js';
+import { isBigger, swap } from './_lib.js';
 
 interface SelectionSort {
   (array: Array<any>, comparaFn?: (a: any, b: any) => boolean): Array<any>;
@@ -12,7 +12,7 @@ export const selectionSort: SelectionSort = function (array: Array<any>, compara
     for (let j = i; j < length; j++) {
       if (comparaFn(array[minIndex], array[j])) { minIndex = j; };
     }
-    if (minIndex !== i) switchPlace(array, minIndex, i);
+    if (minIndex !== i) swap(array, minIndex, i);
   }
   return array;
 };
