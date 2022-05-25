@@ -16,5 +16,3 @@ export const selectionSort: SelectionSort = function (array: Array<any>, compara
   }
   return array;
 };
-
-console.log(selectionSort([4, 3, 2, 1])); 

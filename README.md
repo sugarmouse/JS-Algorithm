@@ -5,11 +5,11 @@
 - 测试
 >在test文件夹中的测试用例需要和对应算法文件有相同的文件夹包裹和相同的文件名
 ```bash
-yarn test <directory> <filename>
+yarn test <file_dir>
 ```
 - 运行文件
 ```bash
-yarn start <directory> <filename>
+yarn start <file_dir>
 ```
 - 删除`coverage`文件
 ```bash
