@@ -10,7 +10,8 @@
   "scripts": {
     "test": "sh ./bin/test.sh",
     "start": "sh ./bin/start.sh",
-    "clean": "sh ./bin/clean.sh"
+    "clean": "sh ./bin/clean.sh",
+    "new":"sh ./bin/new.sh"
   },
   "devDependencies": {
     "@types/jest": "^27.5.1",
