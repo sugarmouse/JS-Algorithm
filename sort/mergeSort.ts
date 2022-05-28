@@ -11,6 +11,13 @@
 import { isBigger } from './_lib.js';
 
 
+/**
+ * We split the array into two halves, recursively sort each half, and then merge the two sorted halves
+ * @param {any[]} array - the array to be sorted
+ * @param compareFN - a function that takes two parameters and returns a boolean.
+ * @returns The sorted array.
+ */
+
 export const mergeSort = (array: any[], compareFN = isBigger) => {
   if (array.length <= 1) return array;
   
@@ -24,7 +31,12 @@ export const mergeSort = (array: any[], compareFN = isBigger) => {
 
 
 /**
- * merge 函数合并两个数组
+ * It takes two sorted arrays and merges them into one sorted array
+ * @param {any[]} leftArr - the left half of the array
+ * @param {any[]} rightArr  - the right array to merge
+ * @param compareFN - a function that takes two parameters and returns true if the first parameter is
+ * greater than the second parameter.
+ * @returns The result of the merge function is an array of the two arrays merged together.
  */
 const merge = (leftArr: any[], rightArr: any[], compareFN: (a: any, b: any) => boolean) => {
   const result = [];
