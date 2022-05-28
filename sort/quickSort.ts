@@ -16,6 +16,3 @@ export const quickSort = (array: any[], compareFN = isBigger): any[] => {
   const sortedArr = [...quickSort(lesser, compareFN), pivot, ...quickSort(greater, compareFN)];
   return sortedArr;
 };
-
-
-console.log(quickSort([4, 5, 6, 3, 2, 1]));
