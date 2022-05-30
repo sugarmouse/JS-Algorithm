@@ -24,8 +24,9 @@ yarn clean
 
 ### 内容
 > 处于不断更新的状态
+****
 目前：
-[排序](sort/readme.md)
+[排序](./sort/readme.md)
   - [冒泡排序](sort/bubbleSort.ts)
   - [选择排序](sort/selectionSort.ts)
   - [插入排序](sort/insertionSort.ts)
@@ -35,5 +36,5 @@ yarn clean
   - [桶排序](sort/bucketSort.ts)
   - [基数排序](sort/radixSort.ts)
 
-[problems](problems/readme.md)
+[problems](./problems/readme.md)
 > 更新中
